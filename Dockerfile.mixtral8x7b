@@ -11,4 +11,4 @@ EXPOSE 8900
 
 # Run the llamafile when the container launches
 #CMD /models/mistral-7b-instruct-v0.2.Q5_K_M.llamafile --port 8900 --host 0.0.0.0 --nobrowser
-CMD /models/mixtral-8x7b-instruct-v0.1.Q5_K_M.llamafile --port 8900 --host 0.0.0.0 --nobrowser
+CMD /models/mixtral-8x7b-instruct-v0.1.Q5_K_M.llamafile --port 8900 --host 0.0.0.0 --nobrowser --gpu
